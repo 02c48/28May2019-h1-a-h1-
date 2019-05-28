@@ -4,6 +4,11 @@ You can use the [editor on GitHub](https://github.com/02c48/28May2019-h1-a-h1-/e
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+[7*7]
+{% assign my_array = "zebra, octopus, giraffe, tiger" | split: ", " %}
+
+{{ my_array.first }}
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -31,6 +36,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/02c48/28May2019-h1-a-h1-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+{{%7*7%}}
 
 ### Support or Contact
 
